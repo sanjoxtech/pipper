@@ -1,1 +1,0 @@
-Put the generated banner here as readme-banner.png (see README image prompt).
