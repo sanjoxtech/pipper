@@ -1,5 +1,9 @@
 # 🪈 pipper
 
+<p align="center">
+  <img src="docs/assets/readme-banner.png" alt="pipper — drive Claude Code, headlessly" width="100%">
+</p>
+
 **Drive Claude Code headlessly in a tmux session — script and automate the `claude` CLI from shell, cron, or code.**
 
 ![python](https://img.shields.io/badge/python-3.9+-blue)
