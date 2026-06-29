@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipper-cli"
+version = "0.1.0"
+description = "Drive Claude Code headlessly in a tmux session — script and automate the claude CLI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Sanjay (sanjoxtech)", email = "sanjox.tech@gmail.com" }]
+keywords = ["claude", "claude-code", "tmux", "automation", "headless", "cli", "agents"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX",
+  "Topic :: Software Development :: Build Tools",
+]
+dependencies = []   # zero dependencies, on purpose
+
+[project.urls]
+Homepage = "https://sanjox.tech"
+Repository = "https://github.com/sanjoxtech/pipper"
+
+[project.scripts]
+pipper = "pipper:main"
+
+[tool.setuptools]
+py-modules = ["pipper"]
